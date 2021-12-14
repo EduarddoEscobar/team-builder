@@ -41,7 +41,7 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Testing phase</h1>
+      <h1>TeamMember Tracker</h1>
       <TeamMemberForm values={formValues} update={updateForm} submit={submitForm}/>
       {teamMembers && teamMembers.map((tm) => <TeamMember key={tm.id} teamMember={tm} />)}
     </div>
